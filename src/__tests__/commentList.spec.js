@@ -1,5 +1,5 @@
-import {render, screen, logRoles, fireEvent} from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
+import {render, screen, /*logRoles, fireEvent*/} from '@testing-library/react';
+// import userEvent from '@testing-library/user-event';
 import CommentList from '../components/CommentList';
 
 

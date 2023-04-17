@@ -1,5 +1,5 @@
 /* eslint-disable testing-library/no-unnecessary-act */
-import {render, screen, logRoles, fireEvent, act, waitFor, cleanup} from '@testing-library/react';
+import {render, screen, /*logRoles, fireEvent, cleanup,*/ act, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import Comment from '../components/Comment';
 import mockAxios from 'axios';
